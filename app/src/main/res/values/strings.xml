@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">MoviesCGV</string>
+    <string name="open">Open</string>
+    <string name="close">Colse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_name_movies">Movies</string>
+    <string name="fragment_name_favorite">Favorite</string>
+    <string name="fragment_name_about">Aboout</string>
+    <string name="fragment_name_setting">Setting</string>
+
+    //Set image use library
+    <string name="set_image_picaso">"http://image.tmdb.org/t/p/w500/"</string>
+
+    <string name="username_edt">Username:</string>
+    <string name="password_txt">Password:</string>
+    <string name="male_txt">Male</string>
+    <string name="famale_txt">Famale</string>
+    <string name="date_btn">Date</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="save_btn">Save</string>
 </resources>

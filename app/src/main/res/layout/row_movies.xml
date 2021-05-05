@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="8dp"
+    android:id="@+id/row_movies_cardview"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:id="@+id/row_movies_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten phim"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+
+        <ImageView
+            android:id="@+id/row_movies_poster_img"
+            android:layout_below="@+id/row_movies_title_txt"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/release_date"
+            android:text="Release date:"
+            android:layout_toRightOf="@+id/row_movies_poster_img"
+            android:layout_below="@+id/row_movies_title_txt"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:id="@+id/row_movies_release_date_txt"
+            android:layout_toRightOf="@+id/release_date"
+            android:layout_below="@+id/row_movies_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dd-mm-yyyy"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/row_movies_ic_favorite_img"
+            android:src="@drawable/icons8_heart_blacks"
+            android:layout_below="@+id/row_movies_release_date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_below="@+id/release_date"
+            android:text="Rating:"
+            android:layout_toRightOf="@+id/row_movies_poster_img"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/row_movies_rating_txt"
+            android:layout_below="@+id/release_date"
+            android:layout_toRightOf="@+id/rating"
+            android:text="10/10"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_below="@+id/rating"
+            android:layout_toRightOf="@id/row_movies_poster_img"
+            android:text="Overview:"
+            android:textColor="@color/pink"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/row_movies_overview_txt"
+            android:layout_below="@+id/overview"
+            android:layout_toRightOf="@id/row_movies_poster_img"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
